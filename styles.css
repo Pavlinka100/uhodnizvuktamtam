@@ -1,0 +1,82 @@
+body {
+  background-image: url("./images/background2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 96vh;
+  width: 98vw;
+  margin: 0;
+   
+ }
+
+.amgspeedoptions{
+  min-height: 50px;
+  min-width: 155px;
+}
+
+
+footer{
+    margin-top: 1em;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    float:none;
+    text-align: center;
+
+}
+
+.amggif {
+  height: 85vw;
+  width: 85vw;
+  max-width: 75vw;
+  max-height: 75vw;
+  max-width: 500px;
+  max-height: 500px;
+  min-width: 200x;
+
+  min-height: 200px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 100px;
+
+
+} 
+
+img {
+
+  width: 100%;
+  height: auto;
+  
+}
+
+@media  screen and (max-width: 767px) {
+  .amggif {
+
+    min-width: 200px;
+    min-height: 200px;
+
+  }
+}
+
+
+@media  screen and (max-height: 700px) {
+  .amggif {
+    height: 90vh;
+    width: 90vh;
+    max-width: 75vw;
+    max-height: 75vw;
+    min-width: 200x;
+    min-height: 200px;
+
+  }
+
+  .amgexternalsound {
+    top: 0;
+    right: 0;
+  }
+
+  .amgheading{
+    display: none;
+  }
+}
